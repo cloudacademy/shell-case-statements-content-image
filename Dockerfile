@@ -3,6 +3,6 @@ USER root
 WORKDIR /root/lab/
 COPY src ./src 
 COPY test ./test
-# ENTRYPOINT [ "/bin/sh" ]
-CMD [ "-f", "/dev/null" ]
-ENTRYPOINT [ "tail" ]
+ENTRYPOINT [ "/bin/sh" ]
+# CMD [ "-f", "/dev/null" ]
+# ENTRYPOINT [ "tail" ]
