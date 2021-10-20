@@ -4,7 +4,7 @@ services:
     build: .
     networks: 
       - lab
-    image: yaml-python-content
+    image: shell-case-statements-content-image
     volumes:
       - src-volume:/root/lab/src
   workspace:
@@ -12,7 +12,7 @@ services:
       - content
     networks: 
       - lab
-    image: yaml-python # local_image|421805900968.dkr.ecr.us-east-2.amazonaws.com/cloudacademy/labs-workspace/remote_image
+    image: wetty-linuxproject
     ports: 
       - "3000:3000"
     volumes:

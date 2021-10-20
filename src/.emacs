@@ -1,0 +1,1 @@
+(set-face-foreground 'font-lock-comment-face "light pink")
